@@ -2,10 +2,10 @@
 Module 6
 
 
-Example of readme file below
+<!-- Example of readme file below
 
 
-<!-- # PyBer_Analysis
+# PyBer_Analysis
 Module 5
 
 ## Overview of the Analysis
