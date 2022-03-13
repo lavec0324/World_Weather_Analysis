@@ -5,7 +5,9 @@ Module 6
 
 Purpose of this project was to develop an app that would allow a user to select travel destinations based on a set of temperature parameters.  This was accomplished using python, jupyter notebooks, weather data api, as well as several of the google mapping apis.
 
-![](https://github.com/lavec0324/PyBer_Analysis/blob/main/analysis/merged_data.PNG)
+![](https://github.com/lavec0324/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
+![](https://github.com/lavec0324/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+![](https://github.com/lavec0324/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
 Only three files are necessary for this analysis:
 
