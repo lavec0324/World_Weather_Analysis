@@ -10,15 +10,15 @@ python, jupyter notebooks, weather data api, as well as several of the google ma
 
 Different maps that were created included:
 
-Searching for locations based on temperateure requirements:
+#### Searching for locations based on temperateure requirements:
 
 ![](https://github.com/lavec0324/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
-Mapping final 5 destinations:
+#### Mapping final 5 destinations:
 
 ![](https://github.com/lavec0324/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
 
-Mapping final 5 destination using markers:
+#### Mapping final 5 destination using markers:
 
 ![](https://github.com/lavec0324/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
