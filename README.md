@@ -3,46 +3,25 @@ Module 6
 
 ## Overview of the Analysis
 
-Purpose of this project was to develop an app that would allow a user to select travel destinations based on a set of temperature parameters.  This was accomplished using python, jupyter notebooks, weather data api, as well as several of the google mapping apis.
-
-![](https://github.com/lavec0324/PyBer_Analysis/blob/main/analysis/merged_data.PNG)
-
-Only three files are necessary for this analysis:
-
-   * [PyBer_Challenge.ipynb](https://github.com/lavec0324/PyBer_Analysis/blob/main/PyBer_Challenge.ipynb) - Jupyter Notbook created for analysis
-   * [city_data.csv](https://github.com/lavec0324/PyBer_Analysis/blob/main/Resources/city_data.csv) - City Data
-   * [ride_data.csv](https://github.com/lavec0324/PyBer_Analysis/blob/main/Resources/ride_data.csv) - Ride Data
-
-This analysis could be used to determine what types of areas see more rides, the average cost of those rides, and the impact the time of the year has on those results.
+Purpose of this project was to develop an app that would allow a user to select travel destinations based on a set of temperature parameters.  This was accomplished using
+python, jupyter notebooks, weather data api, as well as several of the google mapping apis.
 
 ## Results
 
-Through analysis we can clearly see that urban areas have far more drivers, rides, and fares than rural and suburban areas.  This may suggest that cars are not prevelant in
-those areas which could include unwillingness to drive in those areas, parking difficulties, or even cost of maintaining a vehicle in those areas (e.g. insurance, gas,
-parking).
+Different maps that were created included:
 
-Additionally we can see that the average fare is higher in the rural areas.  This most likely has to do with the number of available drivers (supply and demand) as well as
-probaby greater differences being covered.  The average fare per driver are also nearly 3.5 times larger from rural to urban.
+#### Searching for locations based on temperateure requirements:
 
-We can also see for the 4 month view there appear to be spikes in late February for all types of cities.  The data is inconclusive for that aspect.
+![](https://github.com/lavec0324/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
-This can be seen in the below tables and graph.
+#### Mapping final 5 destinations:
 
-##### Summary By Type Table
+![](https://github.com/lavec0324/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
 
-![](https://github.com/lavec0324/PyBer_Analysis/blob/main/analysis/summary_by_type.PNG)
+#### Mapping final 5 destination using markers:
 
-##### Fare Summary for January 2019 (Jan-Apr)
-
-![](https://github.com/lavec0324/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
+![](https://github.com/lavec0324/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
 ## Summary
 
-Per the analysis, we can make three business recommendations to reduce disparities among the city types:
-
-  1. Increase the number of drivers in the rural areas
-  2. Reduce the price of rides in the rural area
-  3. Increase the price of rides in the urban areas
-  
-Items 1 & 2 would hopefully increase the demand for these types of services.  Item #3 would decrease the demand, bring the prices up and flatten out the demand a bit more.
-That demand decrease could be used to increase the demand in the rural area. -->
+In summary using a combination of python scripting and api's we were able to demonstrate a way for users to pick travel destinations based on temperature requirements.  This required pulling latitude and longitudes and getting wether information from weather data apis then plotting them using a google api.
